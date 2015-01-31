@@ -37,7 +37,7 @@ public class LocalTopologyRunner {
         topology);
 
     Utils.sleep(TEN_MINUTES);
-    cluster.killTopology("github-commit-count");
+    cluster.killTopology("github-commit-count-topology");
     cluster.shutdown();
   }
 }
